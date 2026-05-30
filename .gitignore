@@ -26,8 +26,7 @@ models/deploy.prototxt
 app/uploads/*
 !app/uploads/.gitkeep
 
-# Models (generated)
-models/xgboost_deepfake.pkl
+# Training artifacts (not needed for inference)
 models/resnet50_weights.pth
 models/confusion_matrix.png
 
