@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+*.egg
+
+# Virtual environment
+venv/
+.env/
+.env.*
+
+# Frontend
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Dataset (large files, not tracked in git)
+FF++/
+cropped_images/
+models/res10_300x300_ssd_iter_140000.caffemodel
+models/deploy.prototxt
+
+# Uploads
+app/uploads/*
+!app/uploads/.gitkeep
+
+# Models (generated)
+models/xgboost_deepfake.pkl
+models/resnet50_weights.pth
+models/confusion_matrix.png
+
+# Features
+data/features/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+/tmp/
+
+# Presentation
+*.pptx
